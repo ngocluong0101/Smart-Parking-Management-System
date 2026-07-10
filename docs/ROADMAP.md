@@ -116,6 +116,9 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 5 guide](phase-5.md)
+- [Training folder](../training)
+- [Dataset guide](../dataset/README.md)
 - Dataset strategy
 - Training scripts
 - Best weights
