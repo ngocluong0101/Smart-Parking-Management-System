@@ -257,6 +257,8 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 11 guide](phase-11.md)
+- [Deploy folder](../deploy)
 - Deployment guide
 - Production checklist
 
@@ -270,8 +272,10 @@ Mục tiêu:
 
 Deliverables:
 
+- [Phase 12 guide](phase-12.md)
+- [Portfolio guide](portfolio-guide.md)
+- [Demo script](demo-script.md)
+- [Interview notes](interview-notes.md)
 - README hoàn chỉnh
 - API docs
 - Architecture docs
-- Demo script
-- Interview notes
