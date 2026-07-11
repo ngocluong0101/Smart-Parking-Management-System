@@ -163,6 +163,7 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 7 guide](phase-7.md)
 - REST API hoàn chỉnh
 - Swagger/OpenAPI
 - Unit tests cho service layer
@@ -188,6 +189,8 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 8 guide](phase-8.md)
+- [Frontend folder](../frontend)
 - Frontend app
 - Auth pages
 - Dashboard pages
@@ -210,6 +213,8 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 9 guide](phase-9.md)
+- [Docker folder](../docker)
 - Dockerfile
 - docker-compose.yml
 - Nginx config
@@ -230,6 +235,7 @@ Kiến thức cần có:
 
 Deliverables:
 
+- [Phase 10 guide](phase-10.md)
 - Test suite
 - Test report
 - Bug list
