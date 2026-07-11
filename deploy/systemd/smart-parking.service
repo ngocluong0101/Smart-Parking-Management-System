@@ -1,0 +1,17 @@
+[Unit]
+Description=Smart Parking Management System
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/ubuntu/Smart-Parking-Management-System/docker
+ExecStart=/usr/bin/docker compose --env-file .env up -d --build
+ExecStop=/usr/bin/docker compose --env-file .env down
+TimeoutStartSec=0
+User=ubuntu
+Group=ubuntu
+
+[Install]
+WantedBy=multi-user.target
