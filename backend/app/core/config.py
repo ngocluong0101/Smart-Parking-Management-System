@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     debug: bool = True
     api_v1_prefix: str = "/api/v1"
 
-    database_url: str = "mysql+mysqldb://root:password@localhost:3306/smart_parking"
+    database_url: str = "sqlite:///./smart_parking.db"
     secret_key: str = "change-me"
     access_token_expire_minutes: int = 60
 

@@ -2,8 +2,6 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 import base64
-from io import BytesIO
-from PIL import Image
 
 from ai.utils.plate_utils import normalize_plate, is_valid_plate
 
@@ -35,9 +33,7 @@ async def ingest(payload: IngestRequest):
     # If image provided, we could run OCR here, but in this minimal endpoint we rely on plate_raw
     if payload.image_base64:
         try:
-            img_bytes = base64.b64decode(payload.image_base64)
-            image = Image.open(BytesIO(img_bytes)).convert("RGB")
-            # placeholder: could run OCR here if needed
+            base64.b64decode(payload.image_base64)
         except Exception as exc:
             raise HTTPException(status_code=400, detail=f"Invalid image_base64: {exc}")
 
