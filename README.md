@@ -82,6 +82,7 @@ Smart-Parking-Management-System/
 - [Phase 3: Thiết kế database](docs/phase-3.md)
 - [Phase 4: Khởi tạo backend](docs/phase-4.md)
 - [Phase 5: Tự huấn luyện YOLO](docs/phase-5.md)
+- [Phase 6: Tích hợp OCR](docs/phase-6.md)
 - [Kiến trúc hệ thống](docs/architecture/overview.md)
 - [Thiết kế database](docs/architecture/database.md)
 - [Cấu trúc thư mục](docs/architecture/folder-structure.md)
